@@ -1,139 +1,89 @@
 <div align="center">
 
-# ⚡ Harsh Yadav
+# Harsh Yadav
 
-### **Security · Systems · IoT**
+**Security-minded systems engineer**
 
-<p align="center">
-  <em>"I build and break systems to understand how they work."</em>
-</p>
+B.Tech Information Technology · VIT Vellore · 2024–2028
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-harsh--yadav--aa2214345-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harsh-yadav-aa2214345)
-[![GitHub](https://img.shields.io/badge/GitHub-Harshyadav442277-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Harshyadav442277)
-[![CTF](https://img.shields.io/badge/CTFs-100%2B%20Solved-brightgreen?style=flat-square&logo=hack-the-box&logoColor=white)](#-security)
-[![VIT](https://img.shields.io/badge/B.Tech-IT%20%40%20VIT%20Vellore-blue?style=flat-square&logo=vit&logoColor=white)](#-about)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-harsh--yadav-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harsh-yadav-aa2214345)
+[![Email](https://img.shields.io/badge/Email-hyadav42774@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:hyadav42774@gmail.com)
 
 </div>
 
 ---
 
-### 🌐 `~/about`
+## About
 
-Currently exploring **secure communication, networking, embedded systems, and backend development** — with a particular focus on what happens when software meets real hardware and adversarial environments.
+I build systems that have to hold up when the other side is hostile, malformed, or simply wrong — IoT devices on untrusted networks, autonomous agents with spending authority, servers accepting connections from anyone.
 
-```bash
-[harsh@sys ~]$ cat about.me
-├── 🎓 Degree       : B.Tech Information Technology @ VIT Vellore
-├── 🛡️ Core Focus   : Protocol Security, Systems Architecture & Exploitation
-├── 🚀 Community    : Cybersecurity Member @ RoboVITics
-└── 🚩 Achievements : 100+ CTF Challenges Solved (Pwn / Web / Network)
-```
+Most of my work sits on one problem: **the moment a system decides whether to trust something.** A device claiming an identity. A packet claiming a timestamp. An AI agent claiming a payment is within mandate. Getting that decision right — and leaving evidence that it was made — is the thread running through everything below.
+
+Currently an **IoT Security Intern at SVNT Infotech**, building encrypted telemetry pipelines for field-deployed infrastructure monitoring.
 
 ---
 
-### 🛠️ `~/building`
+## Highlights
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-#### 🔒 Secure IoT Communication
-> Robust device-to-server communication engineered for constrained IoT environments.
-
-- **Stack:** `ESP32` · `MQTT` · `TLS` · `C/C++`
-- **Security Primitives:** Authenticated mutual TLS channels.
-- **Defense-in-Depth:** Timestamp + Nonce-based replay attack mitigation.
-- **Resilience:** Token bucket rate limiting against burst abuse & DoS.
-
-</td>
-<td width="50%" valign="top">
-
-#### ⚙️ Systems & Networking
-> Low-level networking, protocols, and concurrent backend architectures.
-
-- **Stack:** `C/C++` · `Python` · `Java` · `Linux` · `Sockets`
-- **Focus:** Protocol analysis, socket programming, and concurrent daemon design.
-- **Interests:** Distributed systems behavior under high load and adversarial packet injection.
-
-</td>
-</tr>
-</table>
+- 🥇 **1st Place** — AI agent-building live competition hosted by **WITHAI** (YC P26) · $600 prize
+- 🥈 **2nd Place** — **Capture The Flag**, MIT Bangalore · cryptography, reverse engineering, web exploitation, digital forensics, network security
+- 🥉 **3rd Place** — RC Car Racing, **Technoxian World Robotics Championship** (South Zone) · qualified for Nationals
 
 ---
 
-### 🔍 `~/security`
+## Selected Work
 
-```text
-┌──(security㉿toolkit)-[~/methodologies]
-│
-├── Web Security        → Burp Suite, OWASP Top 10, Request Smuggling, Auth Bypass
-├── Network Analysis    → Wireshark, Packet Dissection, TCP/IP, Protocol Fuzzing
-├── IoT & Messaging     → MQTT, TLS/mTLS, Serial / UART, Firmware Analysis
-├── Operating Systems   → Linux Internals, Kali, Kernel / Syscalls, Bash
-└── CTF Problem Solving → 100+ Solved (Reverse Engineering, Network, Web, Forensics)
-```
-
-> 💡 *My philosophy is less about collecting tools and more about understanding **protocols, attack surfaces, trust boundaries, and failure modes**.*
+| Project | What it does | Stack |
+| :--- | :--- | :--- |
+| **[Cerberus](https://github.com/Harshyadav442277/Cerberus-finance)** | Pre-execution governance runtime for payment-capable AI agents. Every proposed payment receives a deterministic `ALLOW` / `DENY` / `ESCALATE` before an x402 request can exist. The LLM proposes; a rule-based engine decides. | `TypeScript` `Next.js` `Solidity` |
+| **[Secure IoT Communication](https://github.com/Harshyadav442277/secureCommunicationInIoT)** | TLS-secured MQTT with mutual authentication between ESP32 nodes and broker. Replay protection via timestamp + nonce validation; protocol-level rate limiting against DoS flooding. | `C` `ESP32` `MQTT` `mTLS` |
+| **[Concurrent TCP Chat Server](https://github.com/Harshyadav442277/RTC-with-GO)** | Multi-client TCP server in Go. Hub-broadcast architecture where a central goroutine owns the client registry, message fanout, and graceful disconnect over non-blocking channels. | `Go` |
+| **[Real-Time Telemetry Pipeline](https://github.com/Harshyadav442277/Real-Time-Distributed-Telemetry-Pipeline)** | ChaCha20-encrypted telemetry from ESP32 + SIM800L over cellular to a backend collector, with integrity checks on the receiving end. | `C++` `ESP32` `Node.js` |
+| **[THE HOOK](https://github.com/Harshyadav442277/the-hook)** | Explainable MLB bullpen decision simulator. Replays verified high-leverage pitching changes and estimates each reliever's win probability under identical assumptions. — [live demo](https://the-hook.streamlit.app/) | `Python` `Streamlit` |
+| **[MicroSpark AI](https://github.com/Harshyadav442277/MicroSpark_AI)** | Accessibility-first task-initiation assistant for neurodivergent learners. Turns an intimidating assignment into one concrete next move, then adapts when the learner names a barrier. | `TypeScript` `Next.js` |
 
 ---
 
-### 💻 `~/stack`
+## Focus
 
-<div align="left">
-
-**Languages & Low-Level**  
-![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-
-**Security, Systems & IoT**  
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kali-linux&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white)
-![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
-**Domains of Deep Dive**  
-`Secure Systems` · `IoT Security` · `Backend Systems` · `Protocol Security` · `Embedded Firmware`
-
-</div>
+- **Security** — protocol analysis, trust boundaries, replay and injection resistance, PKI/TLS, threat modeling
+- **Systems** — concurrent servers, socket programming, distributed telemetry, backend architecture
+- **Embedded & IoT** — ESP32, GSM/cellular links, constrained-device cryptography, secure firmware communication
+- **Agentic AI** — deterministic guardrails, policy engines, human-in-the-loop escalation, audit trails
 
 ---
 
-### 📊 `~/github_stats`
+## Stack
+
+- **Languages** — `Go` · `Python` · `C / C++` · `TypeScript` · `Java` · `JavaScript` · `Bash`
+- **Security** — `Burp Suite` · `Wireshark` · `Nmap` · `Kali Linux` · `Metasploitable`
+- **Protocols** — `TCP/IP` · `WebSockets` · `MQTT` · `PKI / TLS / mTLS`
+- **Embedded** — `ESP32` · `SIM800L / GSM` · `Arduino`
+- **Tooling** — `Git` · `Linux` · `Figma`
+
+---
+
+## Currently
+
+- Extending the Go chat server toward WebSocket upgrade, JWT authentication, and message persistence
+- Working on deterministic policy enforcement and audit trails for autonomous agents
+- Hardening cellular-connected field devices at the firmware and protocol layer
+
+---
+
+## Community
+
+- **RoboVITics — Cybersecurity Domain** · CTF practice and collaborative security research at VIT Vellore
+- **Yantra Workshops** · Speaker and mentor on AI, cryptography, and blockchain
+- **Uddeshya 2025** · Cybersecurity awareness sessions for school students — safe computing and ethical hacking fundamentals
+
+---
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Harshyadav442277&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Harsh's GitHub Stats" height="160" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Harshyadav442277&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="160" />
+
+Open to security engineering and backend roles.
+
+[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harsh-yadav-aa2214345)
+[![Email](https://img.shields.io/badge/Email_me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hyadav42774@gmail.com)
+
 </div>
-
----
-
-### 🎯 `~/current_focus`
-
-```text
-harsh@github:~$ ./current_focus.sh
-
-[+] building systems that scale
-[+] breaking protocols to find vulnerabilities
-[+] understanding why and where boundaries collapse
-[+] rebuilding them with defense-in-depth
-```
-
----
-
-### 📬 `~/connect`
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/harsh-yadav-aa2214345" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/Harshyadav442277" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-</p>
