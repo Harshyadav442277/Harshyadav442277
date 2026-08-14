@@ -1,6 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 530 100" width="530" height="100" role="img" aria-label="hey, i'm harsh">
   <title>hey, i'm harsh</title>
-  <text x="265" y="68" text-anchor="middle"
-        font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace"
-        font-size="52" font-weight="600" letter-spacing="1" fill="#4493f8">hey, i'm harsh<tspan dx="8">█<animate attributeName="opacity" values="1;1;0;0" dur="1.1s" repeatCount="indefinite"/></tspan></text>
+  <defs>
+    <clipPath id="reveal" clipPathUnits="userSpaceOnUse">
+      <rect x="30" y="0" width="0" height="100">
+        <animate attributeName="width" calcMode="discrete"
+                 values="0;32;64;96;128;160;192;224;256;288;320;352;384;416;448;384;320;256;192;128;64;0"
+                 keyTimes="0.00000;0.02263;0.04527;0.06790;0.09053;0.11317;0.13580;0.15844;0.18107;0.20370;0.22634;0.24897;0.27160;0.29424;0.31687;0.85185;0.86111;0.87037;0.87963;0.88889;0.89815;0.90741"
+                 dur="4.860s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#reveal)">
+    <text x="30" y="68" textLength="448" lengthAdjust="spacingAndGlyphs"
+          font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="52" font-weight="600"
+          fill="#4493f8" xml:space="preserve">hey, i&#39;m harsh</text>
+  </g>
+
+  <rect y="30" width="22" height="46" rx="1" fill="#4493f8" x="30">
+    <animate attributeName="x" calcMode="discrete"
+             values="30;62;94;126;158;190;222;254;286;318;350;382;414;446;478;414;350;286;222;158;94;30"
+             keyTimes="0.00000;0.02263;0.04527;0.06790;0.09053;0.11317;0.13580;0.15844;0.18107;0.20370;0.22634;0.24897;0.27160;0.29424;0.31687;0.85185;0.86111;0.87037;0.87963;0.88889;0.89815;0.90741"
+             dur="4.860s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1"
+             dur="1.06s" repeatCount="indefinite"/>
+  </rect>
 </svg>
