@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 186 72" width="186" height="72" role="img" aria-label="Email">
+  <title>Email</title>
+  <rect x="0" y="0" width="186" height="72" rx="14" fill="#3d444d"/>
+  <g transform="translate(26 22) scale(1.1667)" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="2.6" y="4.5" width="18.8" height="15" rx="2.6"/>
+    <path d="m3.4 6.4 8.6 6.4 8.6-6.4"/>
+  </g>
+  <text x="76" y="45" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="26" font-weight="600" fill="#ffffff">Email</text>
+</svg>
